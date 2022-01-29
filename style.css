@@ -1,0 +1,504 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*-------------Navigation----------*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand
+{
+    height: 60px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li
+{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover
+{
+    color: #007bff!important;
+}    
+.navbar
+{
+    background: #fff;
+}
+.navbar-toggler
+{
+    border: none!imoprtant;
+}
+.nav-link
+{
+    color: #555!imoprtant;
+    font-weight: 600;
+    font-size: 16px;
+}
+/*------------Slider-----------*/
+#slider
+{
+    width: 100%;
+}
+.carousel-caption
+{
+    top: 90%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+}
+.carousel-caption h5
+{
+    color: #fff;
+    font-size: 42px;
+}
+/*------------About------------*/
+#about
+{
+    padding-top:50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px; 
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar{
+    margin-bottom: 6px;
+    font-weight: 600px;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+/*---------------Services------------*/
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(image/services.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#services h1
+{
+    text-align: center;
+    color: #efefef !important;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+#services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;    
+}
+.services .col-md-3:hover{
+    background: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+/*----------course-----------*/
+#course
+{
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+#course .course-box
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+#course .courses
+{
+    text-align: start;
+    background: #f9f9ff;
+    height: 100%;
+    position: relative;
+}
+#course .courses img
+{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+#course .courses .details
+{
+    padding: 15px 15px 0 15px;
+}
+#course .courses .details i
+{
+    color: #fdc93b;
+    font-size: .9rem;
+}
+#course .courses .cost
+{
+    background-color: rgb(74, 74, 136);
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+}
+/*----------Profile-----------*/
+body{
+    margin-top: 20px;
+    background-color: gray;
+}
+.main
+{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.topbar
+{
+    background-color: teal;
+    overflow: hidden;
+}
+.topbar a
+{
+    float: right;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px 26px;
+    text-decoration: none;
+    font-size: 26px;
+}
+.sidebar
+{
+    background-color: black;
+    color: black;
+    height: 95%;
+}
+.sidebar a
+{
+    margin-left: 0px;
+    display: block;
+    color: black;
+    padding-bottom: 30px;
+    font-size: 30px;
+    text-decoration: none;
+}
+.card
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.content
+{
+    background-color: black;
+}
+/*-------course_inner-----------*/
+#course-inner
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 8vw;
+}
+#course-inner h3
+{
+    padding: 35px 0 25px 0;
+    color: #29303b;
+}
+#course-inner p
+{
+    color: #64626e;
+}
+#course-inner hr
+{
+   height: 1px;
+   background: rgba(236, 226, 229, 0.5);
+   margin-top: 40px; 
+}
+#course-inner .overview
+{
+    width: 70%;
+}
+#course-inner .overview .course-img
+{
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+#course-inner .overview .course-head
+{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#course-inner .overview .course-head .c-name
+{
+    width: 70%
+}
+#course-inner .overview .course-head .c-name h2
+{
+    color: #29303B;
+}
+#course-inner .overview .course-head .c-name .star
+{
+    margin: 6px 0;
+}
+#course-inner .overview .course-head .c-name .star i
+{
+    color: #fdc93b;
+    font-size: 0.9rem;
+}
+#course-inner .overview .course-head .c-name p
+{
+    font-size: 15px;
+}
+#course-inner .overview .course-head span
+{
+    padding: 16px 22px;
+    border-radius: 5px;
+    color: #5838fc;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: rgba(88, 56, 252, 0.1);
+}
+#course-inner .learn p
+{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+#course-inner .learn p i
+{
+    color: #654ce4;
+    font-weight: 700;
+    margin-right: 20px;
+}
+#course-inner .tutor
+{
+    display: flex;
+}
+#course-inner .tutor img
+{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+#course-inner .tutor h5
+{
+    font-size: 11px;
+}
+#course-inner .enroll
+{
+    width: 350px;
+    padding: 0 30px 30px 30px;
+    border-radius: 11px;
+    box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
+}
+#course-inner .enroll h3
+{
+    padding-bottom: 10px;
+}
+#course-inner .enroll p
+{
+    font-size: 15px;
+    color: #64626e;
+    margin: 15px 0;
+}
+#course-inner .enroll p i
+{
+    color: #654ce4;
+    font-weight: 500;
+    margin-right: 18px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+}
+#course-inner .enroll .enroll-btn
+{
+    padding: 25px 0 20px 0;
+    margin: auto;
+    text-align: center;
+}
+#course-inner .enroll .enroll-btn a
+{
+    text-decoration: none;
+    font-size: .8rem;
+    padding: 13px 45px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    background: rgb(50, 50, 136);
+}
+/*-------login-----------*/
+{
+ margin: 0;
+ padding: 0;
+font-family: sans-serif;
+}
+.hero
+{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box
+{
+    width: 380px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+}
+.button-box
+{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    border-radius: 30px;
+}
+.toggle-btn
+{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn
+{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+.social-icons{
+    margin: 30px auto;
+    text-align: center;
+}
+.social-icons img{
+    width: 30px;
+    margin: 0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.input-group
+{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field
+{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.chech-box
+{
+    margin: 30px 10px 30px 0;
+}
+span
+{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login
+{
+    left: 50px;
+}
+#register
+{
+    left: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
